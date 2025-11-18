@@ -28,6 +28,8 @@ wheels/
 
 # Models (large files)
 *.h5
+# Excepción: incluir el modelo principal para deploy
+!covid_detection_model.h5
 *.keras
 *.pb
 *.ckpt
