@@ -62,6 +62,8 @@ saliency_map*.png
 # Data (if large)
 data/*.h5
 data/*.zip
+# Incluir el dataset principal para deployment
+!data/Dataset/
 
 # Streamlit
 .streamlit/secrets.toml

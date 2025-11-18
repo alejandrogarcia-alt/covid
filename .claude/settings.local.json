@@ -17,7 +17,9 @@
       "Bash(git add:*)",
       "Bash(git commit -m \"$(cat <<''EOF''\nSistema de Detección de COVID-19 con IA\n\n- Implementación de modelo de deep learning para detección de COVID-19 en radiografías\n- Interfaz web con Streamlit para análisis de imágenes\n- Visualización de mapas de calor (Saliency Maps) con alpha ajustable (0.3)\n- Solución de BrokenPipeError mediante supresión de stdout de TensorFlow/Keras\n- Scripts de entrenamiento configurables\n- Documentación completa del proyecto\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
       "Bash(git push:*)",
-      "Bash(find:*)"
+      "Bash(find:*)",
+      "Bash(git commit:*)",
+      "Bash(git config:*)"
     ],
     "deny": [],
     "ask": []

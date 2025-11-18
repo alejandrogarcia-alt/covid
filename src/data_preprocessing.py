@@ -2,8 +2,8 @@ import tensorflow as tf
 import os
 
 # --- Constants ---
-# Using the absolute path provided by the user
-DATA_DIR = '/Users/amgarcia71/Downloads/Dataset'
+# Using relative path from project root
+DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'data', 'Dataset')
 IMAGE_SIZE = (224, 224)
 BATCH_SIZE = 32
 SEED = 42
