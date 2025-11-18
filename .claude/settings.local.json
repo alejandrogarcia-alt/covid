@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(chmod:*)",
+      "Bash(./run_app.sh:*)",
+      "Bash(streamlit run:*)",
+      "Bash(pip install:*)",
+      "Bash(pip uninstall:*)",
+      "Bash(pkill:*)",
+      "Bash(python convert_model.py:*)",
+      "Bash(python src/predict.py:*)",
+      "Bash(python:*)",
+      "Bash(STREAMLIT_SERVER_HEADLESS=true streamlit run:*)",
+      "Bash(git rev-parse:*)",
+      "Bash(git init:*)",
+      "Bash(git remote add:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
